@@ -54,13 +54,11 @@ body{
 
     .main-content > *{
         width: 100%;
-        height: 100%;
     }
 
     .main-content > .main-title{
         text-align: center;
         font-size: 60px;
-        color: #FFFF00;
     }
 /* FINE MAIN */
 
@@ -75,8 +73,25 @@ body{
         flex-flow: row wrap;
     }
     /* BG COLOR */
-        .red{
+        .bgcolor-red{
             background-color: #FF0000;
         }
+
+        .bgcolor-green{
+            background-color: #008000;
+        }
+
+        .bgcolor-yellow{
+            background-color: #FFFF00;
+        }
     /* FINE BG COLOR */
+    /* TEXT COLOR */
+        .yellow{
+            color: #FFFF00;
+        }
+
+        .green{
+            color: #008000;
+        }
+    /* FINE TEXT COLOR */
 /* FINE UTILITIES */
