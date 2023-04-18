@@ -9,6 +9,14 @@ body{
 }
 
 /* HEADER */
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+    }
+
     .header-col{
         width: 100%;
         margin-top: 30px;
